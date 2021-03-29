@@ -1,0 +1,49 @@
+.newsletter{
+    background-color: var(--SoftBlue);
+    color: white;
+}
+
+.newsletter p {
+    font-size: 11px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+.newsletter h2 {
+    font-weight: 500;
+    max-width: 350px;    
+    line-height: 1.3;
+}
+form{
+    flex: 1;
+}
+form input {
+    color:var(--GrayishBlue) ;
+    padding: 10px 40px  ;
+    border:thin solid white;
+}
+.frm__btn {
+    margin-left: 12px;
+    color: white;
+    border:thin solid var(--SoftRed);
+    background: var(--SoftRed);
+    padding: 10px 20px;
+}
+form{
+    display: flex;
+}
+
+.form{
+margin: 30px 0;
+}
+    @media (max-width:767px){
+        form{
+            flex-direction: column;
+        }
+       .frm__btn {
+         margin-top: 12px;  
+         margin-left: 0;
+       }
+    }
+
+
