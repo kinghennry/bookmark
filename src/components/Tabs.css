@@ -15,9 +15,7 @@
 .tabs-btn:first-child {
 border-top: 1px solid var(--GrayishBlue);
 }
-.tabs-btn:not(:first-child) {
-    /* border-top: transparent; */
-}
+
 .tabs-btn:nth-child(2){
     border-top: 1px solid var(--GrayishBlue);
 }
